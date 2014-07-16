@@ -1,0 +1,10 @@
+{% raw %}
+{# TODO: s/template/salt_name/g #}
+{% set template = salt['grains.filter_by']({
+    'default': {
+        'pkg': 'template',
+        'service': 'template',
+        'config': '/etc/template.conf',
+    },
+}, merge=salt['pillar.get']('template:lookup')) %}
+{% endraw %}

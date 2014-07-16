@@ -2,9 +2,10 @@
 	"full_name": "Wes Turner",
 	"email": "wes@wrd.nu",
 	"github_username": "westurner",
-	"project_name": "Salt Formula Cookiecutter",
-	"repo_name": "cookiecutter-saltformula",
-	"project_short_description": "Generate a salt formula with cookiecutter",
+	"project_name": "Template Salt Formula",
+	"repo_name": "template-formula",
+    "salt_name": "template",
+	"project_short_description": "Salt formula for template",
 	"release_date": "2014-07-07",
 	"year": "2014",
 	"version": "0.1.0"

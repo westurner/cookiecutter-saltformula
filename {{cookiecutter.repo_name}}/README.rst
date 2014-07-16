@@ -1,23 +1,25 @@
 ===============================
-{{ cookiecutter.project_name }}
+{{ cookiecutter.salt_name }}
 ===============================
-
-.. image:: https://badge.fury.io/py/{{ cookiecutter.repo_name }}.png
-    :target: http://badge.fury.io/py/{{ cookiecutter.repo_name }}
-
-.. image:: https://travis-ci.org/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}.png?branch=master
-        :target: https://travis-ci.org/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}
-
-.. image:: https://pypip.in/d/{{ cookiecutter.repo_name }}/badge.png
-        :target: https://pypi.python.org/pypi/{{ cookiecutter.repo_name }}
-
 
 {{ cookiecutter.project_short_description}}
 
 * Free software: BSD license
-* Documentation: http://{{ cookiecutter.repo_name }}.readthedocs.org.
+* SaltStack Formula
 
-Features
---------
+.. note::
 
-* TODO
+    See the full `Salt Formulas installation and usage instructions
+    <http://docs.saltstack.com/topics/conventions/formulas.html>`_.
+
+Available states
+================
+
+.. contents::
+    :local:
+
+``{{ cookiecutter.salt_name }}``
+-------------------------------------
+
+Installs the {{ cookiecutter.salt_name }} package,
+and starts the associated {{ cookiecutter.salt_name }} service.

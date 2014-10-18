@@ -23,3 +23,8 @@ Available states
 
 Installs the {{ cookiecutter.salt_name }} package,
 and starts the associated {{ cookiecutter.salt_name }} service.
+
+Formula Dependencies
+====================
+
+None

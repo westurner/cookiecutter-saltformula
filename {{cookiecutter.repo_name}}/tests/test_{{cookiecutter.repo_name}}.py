@@ -1,19 +1,21 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+{% set test_formula_name=cookiecutter.repo_name.replace('-','_') %}
+
 """
-test_{{ cookiecutter.repo_name }}
+test_{{ test_formula_name }}
 ----------------------------------
 
-Tests for `{{ cookiecutter.repo_name }}` module.
+Tests for `{{ test_formula_name }}` module.
 """
 
 import unittest
 
-from {{ cookiecutter.repo_name }} import {{ cookiecutter.repo_name }}
+from {{ test_formula_name }} import {{ test_formula_name }}
 
 
-class Test{{ cookiecutter.repo_name|capitalize }}(unittest.TestCase):
+class Test{{ test_formula_name|capitalize }}(unittest.TestCase):
 
     def setUp(self):
         pass

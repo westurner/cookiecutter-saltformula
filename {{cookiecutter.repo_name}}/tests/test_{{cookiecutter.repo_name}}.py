@@ -20,7 +20,7 @@ class Test{{ test_formula_name|capitalize }}(unittest.TestCase):
     def setUp(self):
         pass
 
-    def test_something(self):
+    def test_{{ test_formula_name }}(self):
         pass
 
     def tearDown(self):
